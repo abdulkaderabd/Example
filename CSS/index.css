@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+.nav {
+  color: white;
+  background-color: #276678;
+  box-shadow: 5px 5px 4px #1687a7;
+}
+.navP {
+  margin: 0;
+  padding: 10px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: 'Courgette', cursive;
+}
+img {
+  width: 65%;
+  margin: 50px auto;
+  border-style: solid;
+  border-color: #276678;
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px #1687a7;
+}
+
+@media screen and (max-width: 700px) {
+  img {
+    width: 95%;
+  }
+}
